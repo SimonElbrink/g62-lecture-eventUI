@@ -61,6 +61,45 @@
     </nav>
 </header>
 
+<section class="relative overflow-hidden bg-gradient-to-b from-white via-slate-50 to-white pt-40 pb-24 sm:pt-48 sm:pb-32">
+    <!-- Soft background glow -->
+    <div class="pointer-events-none absolute inset-x-0 top-0 -z-0 flex justify-center" aria-hidden="true">
+        <div class="h-80 w-[48rem] rounded-full bg-red-100/40 blur-3xl"></div>
+    </div>
+
+    <div class="relative mx-auto max-w-3xl px-6 text-center lg:px-8">
+        <!-- Badge -->
+        <span class="inline-flex items-center gap-2 rounded-full bg-red-50 px-4 py-1.5 text-sm font-medium text-red-600 ring-1 ring-inset ring-red-600/10">
+            Plan
+            <span class="h-1 w-1 rounded-full bg-red-600/60"></span>
+            Connect
+            <span class="h-1 w-1 rounded-full bg-red-600/60"></span>
+            Create Memories
+        </span>
+
+        <!-- Headline -->
+        <h1 class="mt-8 text-4xl font-bold tracking-tight text-slate-900 sm:text-6xl">
+            Welcome to Event App
+        </h1>
+
+        <!-- Supporting paragraph -->
+        <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+            Discover, create, and manage amazing events all in one place.
+            Bring people together and turn moments into unforgettable experiences.
+        </p>
+
+        <!-- CTAs -->
+        <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a href="#create-event" class="w-full rounded-xl bg-red-600 px-8 py-3.5 text-base font-semibold text-white shadow-md shadow-red-600/25 transition-all duration-200 hover:scale-105 hover:bg-red-700 hover:shadow-lg hover:shadow-red-700/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 sm:w-auto">
+                Create Event
+            </a>
+            <a href="#browse-events" class="w-full rounded-xl border border-slate-200 bg-white px-8 py-3.5 text-base font-semibold text-slate-900 shadow-sm transition-all duration-200 hover:scale-105 hover:border-slate-300 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2 sm:w-auto">
+                Browse Events
+            </a>
+        </div>
+    </div>
+</section>
+
 
 </body>
 </html>
